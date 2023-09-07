@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://icon-library.com/images/web-link-icon-png/web-link-icon-png-5.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shortly URL</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav-bar">
+        <div class="left-nav">
+          <img style="color: black" src="./images/logo.svg" alt="" />
+          <ul class="ul">
+            <div class="nav-li">Features</div>
+            <div class="nav-li">Pricing</div>
+            <div class="nav-li">Resources</div>
+          </ul>
+        </div>
+
+        <div class="right-nav">
+          <button class="login">Login</button>
+          <button class="sign-up">Sign Up</button>
+        </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="navigator d-none">
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Resources</p>
+          <button class="navigate-login">Login</button>
+          <button class="navigate-sign-up">Sign Up</button>
+        </div>
+      </div>
+
+      <div id="main">
+        <div class="left-main">
+          <h1 class="header">More than just shorter links</h1>
+          <p class="desc">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="start-btn">Get Started</button>
+        </div>
+        <img class="worker" src="./images/illustration-working.svg" alt="" />
+      </div>
+
+      <div id="input-div">
+        <p class="warn d-none">Please add a valid link</p>
+        <input
+          type="text"
+          name="input"
+          id="link-input"
+          placeholder="Shorten a link here..."
+        />
+        <button class="shorten-btn">Shorten It!</button>
+      </div>
+    </div>
+
+    <div class="gray-bg">
+      <div class="results"></div>
+      <div id="advanced">
+        <div class="adv-heading">
+          <h1 class="adv-header">Advanced Statistics</h1>
+          <p class="adv-desc">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="cyan-dash"></div>
+          <div class="brand">
+            <img
+              class="adv-img brand-img"
+              src="./images/icon-brand-recognition.svg"
+              alt=""
+            />
+            <h2 class="brand-header">Brand Recognition</h2>
+            <p class="brand-desc">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="detail">
+            <img
+              class="adv-img detail-img"
+              src="./images/icon-detailed-records.svg"
+              alt=""
+            />
+            <h2 class="detail-header">Detailed Records</h2>
+            <p class="detail-desc">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="fully">
+            <img
+              class="adv-img fully-img"
+              src="./images/icon-fully-customizable.svg"
+              alt=""
+            />
+            <h2 class="fully-header">Fully Customizable</h2>
+            <p class="fully-desc">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="boost-div">
+      <h1 class="boost-header">Boost your links today</h1>
+      <button class="start-btn">
+        <a class="boost-btn" href="#container">Get Started</a>
+      </button>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-content">
+        <h2 class="footer-logo">Shortly</h2>
+        <div class="features">
+          <h6>Features</h6>
+          <ul>
+            <li>Link Shortening</li>
+            <li>Branded Links</li>
+            <li>Analytics</li>
+          </ul>
+        </div>
+        <div class="resources">
+          <h6>Resources</h6>
+          <ul>
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div class="company">
+          <h6>Company</h6>
+          <ul>
+            <li>About</li>
+            <li>Our Team</li>
+            <li>Careers</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="social">
+          <a target="_blank" href="https://www.linkedin.com/in/numan-haspolat/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/NumanHaspolat"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
